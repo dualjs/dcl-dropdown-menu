@@ -1,0 +1,40 @@
+{
+  "name": "dcl-dropdown-menu",
+  "description": "DCL Dropdown Menu component",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dualjs/dropdown-menu",
+  "author": {
+    "name": "Mark",
+    "email": "me@jsman.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dualjs/dropdown-menu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dualjs/dropdown-menu/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dualjs/dropdown-menu/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/dcl-dropdown-menu.js",
+  "dependencies": {
+    "dual": "*",
+    "dcl-bootstrap": "*"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-dcl-resources": "0.0.1",
+    "browserify": "~2.x",
+    "grunt-browserify": "1.2.11",
+    "grunt-contrib-less": "~0.7.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}

@@ -8,16 +8,16 @@ var demo = D.fromJSON([
     },
     [
         ['DropdownMenu', [
-            ['li', [
-                ['a', ['Hello']]
-            ]],
-            ['li', [
-                ['a', ['World']]
-            ]]
+            ['Item', {caption:'Hello'}],
+            ['Item', {caption:'World'}],
+            ['Separator'],
+            ['Item', {caption:'Exit'}]
         ]]
     ]
 ], {
-    'DropdownMenu': DropdownMenu
+    'DropdownMenu': DropdownMenu,
+    'Item': DropdownMenu.Item,
+    'Separator': DropdownMenu.Separator
 });
 
 console.log(demo);
